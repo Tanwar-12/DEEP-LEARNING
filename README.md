@@ -1,1 +1,2 @@
-# 50-DAYS-OF-DEEP-LEARNING-
+# 50-DAYS-OF-DEEP-LEARNING.
+Welcome to the Deep Learning 100 Days Challenge repository! This repository contains resources, code samples, and projects for a comprehensive 100-day deep learning journey. Whether you're a beginner looking to dive into the world of neural networks or an experienced practitioner seeking to enhance your skills, this challenge offers a structured learning path covering fundamental concepts, advanced techniques, practical projects, and the latest trends in deep learning.
