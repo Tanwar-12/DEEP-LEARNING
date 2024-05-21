@@ -1,0 +1,26 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+    <title>Predict Human or Horse ML App</title>
+</head>
+<body>
+
+  <!-- Show  Banner-->
+  <div>
+    <img src="static/images/horse or human banner.png" class="w3-border w3-padding" alt="Indian AI Production" style="width:100%">
+  </div>
+
+    <form action="/predict" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 60%; text-align: center; margin: auto;" onsubmit="showloading()">
+        <span class="text-left btn btn-default btn-file">
+            Upload Image <input type="file" name="image">
+        </span>   
+    
+        <span class="text-right">
+          <input type="submit" value="Predict" class="btn btn-primary">
+        </span>
+      </form>
+
+</body>
+</html>

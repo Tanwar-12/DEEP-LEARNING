@@ -1,0 +1,36 @@
+<html>
+<head>
+
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <title>Predict Human or Horse ML App</title>
+</head>
+<body>
+
+  <!-- Show  Banner-->
+  <div>
+    <img src="static/images/horse or human banner.png" class="w3-border w3-padding" alt="Indian AI Production" style="width:100%">
+  </div>
+
+
+  <div class="container">
+  <div class="row">
+
+    <div class="col-sm">
+      <span class="border border-primary">
+        <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+      </span>
+    </div>
+
+    <div class="col-sm">
+      <h1>It's <span class="badge badge-secondary">{{pred_output}}</span></h1>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
